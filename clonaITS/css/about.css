@@ -1,0 +1,29 @@
+nav a:visited,
+nav a:link {
+  color: var(--text-para);
+  text-decoration: none;
+  color: var(--text-light);
+  font-family: "Poppins", sans-serif;
+}
+nav a:hover {
+  color: var(--text-secondary);
+}
+
+.about--h1 {
+  height: 40vh;
+  width: 100wh;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about--informatii {
+  display: flex;
+  justify-content: space-between;
+}
+.card-img-top {
+  height: 15rem;
+}
+.card-title {
+  color: var(--text-secondary);
+}

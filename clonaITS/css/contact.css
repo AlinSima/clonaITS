@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+nav a:visited,
+nav a:link {
+  color: var(--text-para);
+  text-decoration: none;
+  color: var(--text-light);
+  font-family: "Poppins", sans-serif;
+}
+main {
+  margin: 0;
+}
+.contact--header {
+  height: 40vh;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: var(--text-light);
+}
+.contact--info-genereale h2 {
+  text-align: center;
+  color: var(--text-primary);
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+}
+.contact--info-genereale p {
+  font-size: 1.1rem;
+  color: var(--text-para);
+  margin-top: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
+  margin-left: var(--spacing-medium);
+  margin-right: var(--spacing-medium);
+}
+.lista--contact li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--spacing-xl);
+  border-bottom: 1px solid var(--text-para);
+}
+.lista--contact p {
+  margin: 0;
+  color: var(--text-para);
+}
+.info--generale-cont {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: var(--spacing-medium);
+}
+.lista--contact ion-icon {
+  color: var(--bg-primary);
+  width: var(--spacing-medium);
+  height: var(--spacing-medium);
+  overflow: hidden;
+}
+.lista--contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-medium);
+}
+.lista--contact a:link,
+.lista--contact a:visited {
+  text-decoration: none;
+  color: var(--text-para);
+}
